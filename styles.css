@@ -1,0 +1,321 @@
+
+html {
+    height: 100%;
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+
+}
+
+ul {
+    font-size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+    text-align: center;
+    padding: 14px 16px;
+    flex-grow: 2;
+    list-style-type: none;
+margin-top: 100px;
+    overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-shadow: 0 0 7px  white;
+}
+
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    align-content: center;
+}
+
+
+
+
+*/
+#menu {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.headr {
+    padding-left: 50px;
+}
+
+.aboutdivp {
+    font-size: 54px;
+    text-align: center;
+    color: white;
+}
+
+
+.bkp {
+    font-size: 20px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+
+    
+
+}
+
+#dcon {
+      display: flex;
+  justify-content: center;
+
+      flex-direction: row;
+
+}
+
+
+#grad1 {
+        margin: 0;
+    height: 175px;
+    width: 100%;
+    background: linear-gradient(to right,  brown , blue); /* Standard syntax (must be last) */
+        position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+
+}
+
+#logo {
+    flex-grow: 1
+}
+/*
+#logo {
+        margin: 0;
+    background: radial-gradient(lightyellow, orange ); /* Standard syntax (must be last) 
+
+    padding-top: 80px;
+    height: 400px;
+    width: 100%;
+}
+*/
+
+#social {
+
+}
+
+#vision-grad2 {
+        margin: 0;
+
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(to right, brown , orange); /* Standard syntax (must be last) */
+    color: white;
+    padding-top: 10%;
+    padding-left: 10%; */
+}
+
+#mission-grad {
+        margin: 0;
+
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(to right, blue , brown); /* Standard syntax (must be last) */
+    color: white;
+  padding-top: 10%;
+    padding-left: 10%; */
+}
+
+#presence-grad {
+        margin: 0;
+
+    height: 100%;
+    width: 90%;
+    background: linear-gradient(to right, brown , orange); /* Standard syntax (must be last) */
+    color: white;
+  padding-top: 10%;
+    padding-left: 10%; */
+}
+
+#wed-grad {
+        margin: 0;
+
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(to right, blue , brown); /* Standard syntax (must be last) */
+    color: white;
+  padding-top: 10%;
+    padding-left: 10%; */
+}
+
+#about-grad {
+    height: 83%;
+    width: 100%;
+    background: linear-gradient(to right, #1e617a, #4fb7dd); /* Standard syntax (must be last) */
+    color: white;
+    padding-top: 10%;
+}
+
+#address-grad {
+        margin: 0;
+
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(to right, blue , brown); /* Standard syntax (must be last) */
+    color: white;
+}
+
+#contact-grad {
+        margin: 0;
+
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(to right, #3b3c3f , #76777f); /* Standard syntax (must be last) */
+    color: white;
+  padding-top: 10%;
+    padding-left: 10%; */
+}
+
+
+#end {
+        margin: 0;
+color: white;
+    background: linear-gradient(to right, brown , blue); /* Standard syntax (must be last) */
+      padding-top: 1%;
+padding-left: 3%;
+    height: 20%;
+        width: 97%;
+}
+
+img[src*="logo"] {
+        display: block;
+    margin-left: 12px;
+    margin-right: auto;
+        height: 190px;
+    width: 190px;
+
+}
+/*
+img[src*="map"] {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*/
+
+/* FLIP CSS */
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 420px;
+	height: 420px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+    background: linear-gradient(to right, pink); /* Standard syntax (must be last) */
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+    background: linear-gradient(to right, orangered, deeppink); /* Standard syntax (must be last) */
+}
+
+#slides {
+    margin:0 auto;
+    width: 100%;    
+
+}
+
+#about-grad-v {
+    height: 110%;
+    width: 100%;
+    background: linear-gradient(to right, brown, blue); /* Standard syntax (must be last) */
+    color: white;
+}
+
+#ins-grad {
+        margin: 0;
+
+    height: 110%;
+    width: 90%;
+    background: linear-gradient(to right,orange, red); /* Standard syntax (must be last) */
+    color: white;
+  padding-top: 10%;
+    padding-left: 10%; */
+}
+
+
+#wed-grad {
+        margin: 0;
+
+    height: 80%;
+    width: 90%;
+    background: linear-gradient(to right,#ad261a, #ef516b); /* Standard syntax (must be last) */
+    color: white;
+  padding-top: 10%;
+    padding-left: 10%; */
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="stylesheet" href="styles.css">
+<style>
+.fa {
+      padding-top: 10%;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: blue;
+}
+
+.fa-facebook {
+  background: white;
+  color: black; 
+  margin: 15px;
+}
+
+.fa-instagram {
+  padding-left: 15px;
+  background: white;
+  color: black;
+    margin: 15px;
+
+ }
+
+  .fa-twitter {
+  padding-left: 15px;
+  background: white;
+  color: black; 
+    margin: 15px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="navbar">
+
+</div>
+
+<div id="grad1">
+  
+
+<div id="menu">
+
+        <div id="logo">
+  <img src="logopic.svg" alt="logo">
+  </div>
+
+<ul>
+
+    <li><a href="#about-grad">ABOUT</a></li>
+
+    <li><a href="#wed-grad">WHAT WE DO</a></li>
+
+    <li><a href="#ins-grad">OUR INSPIRATION</a></li>
+
+    <li><a href="#contact-grad">CONTACT</a></li>
+
+
+
+</ul>
+
+<div id="social">
+<a href="https://www.facebook.com/milanfoundation2017/" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/milanfoundation2017/" target="_blank" class="fa fa-instagram"></a>
+<a href="https://twitter.com/milanngo2017/" target="_blank" class="fa fa-twitter"></a>
+
+</div>
+
+
+      </div>
+</div>
+
+
+<div id="about-grad-v">
+ <br><br> <h1> <p class="headr">  </p> </h1> <br>
+ <div id="slides">
+   <img class="mySlides" src="public/images/1.jpg" style="width:100%">
+   <img class="mySlides" src="public/images/2.png" style="width:100%">
+   <img class="mySlides" src="public/images/3.jpg" style="width:100%">
+   <img class="mySlides" src="public/images/4.jpg" style="width:100%">
+   <img class="mySlides" src="public/images/5.jpg" style="width:100%">
+
+ </div>
+</div>
+
+
+<!--  JAVASCRIPT  -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<div id="about-grad"> <br><br>
+ <h1> <p class="headr">ABOUT US</p> </h1>
+
+<div id="dcon">
+
+<!--
+  FLIP 
+  -->
+
+
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+  <strong><p class="aboutdivp"> <br><br> OVERVIEW</p></strong>
+    </div>
+    <div class="back"> <br><br>
+ <p class="bkp">
+   Milan is founded in 2017 by Hardik Jain and his friends with a strong passion to work in the field of education. <br> <br>
+    The organization provides families a platform to contribute to society and bridges the gap between upper middle class and rich familes and the underprivileged children through education.
+ </p>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+  <strong><p class="aboutdivp"><br><br>VISION</p></strong>
+    </div>
+    <div class="back"> <br><br><br><br><br><br><br><br>
+ <p class="bkp">Transform society to improve lives nationally through Education</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+ <strong><p class="aboutdivp"><br><br>MISSION</p></strong>
+    </div>
+    <div class="back">
+ <p class="bkp"> <br><br>
+ To be free in giving <br> <br>
+To work holistically for communities less privileged. <br><br>
+To bridge the wealthy families and underprivileged children. <br><br>
+To create partnerships and networks to leverage maximum impact for the beneficiaries.
+
+ </p>
+    </div>
+  </div>
+</div>
+
+
+
+  <!--
+<div id="d1">
+  <p class="aboutdivp">VISION</p>
+</div>
+
+ <div id="d1">
+     <br>
+  <br>  <br>  <br>  <br> <br><br>
+
+     <p class="aboutdivp">MISSION</p>
+
+</div>
+<br>
+
+<div id="d1">
+  <br>
+   <br>  <br>  <br> <br><br>  <br>  <br>  <br> <br><br>  <br> <br><br>
+    <p class="aboutdivp">OVERVIEW</p>
+</div>   
+  -->
+
+</div>
+
+</div>
+
+
+
+
+<div id="wed-grad"> <br><br> <br>
+  <h1>WHAT WE DO</h1>
+
+  <p style="font-size:22px"> <br><br><br>
+    MILAN is the only non profit organization in India that doesn’t take donations. <br><br>
+     We seek to strive for better society by raising the bar of education in India.<br>
+MILAN works for education of underprivileged children who can't afford to go school.  <br>
+We help them by linking upper middle class family with those underprivileged children. <br><br>
+Each Family sponsor one child and pays for their education till their high school/graduation. <br>
+Family is monitored every 2-3 month by our team.
+Education promotes equality and lifts people out of poverty. <br>
+It teaches children how to become good citizens. Education is not just for a privileged few, it is for everyone. <br><br>
+It is a fundamental human right
+
+
+  </p>
+</div>
+
+
+<div id="ins-grad"> <br><br><br>
+  <h1>OUR INSPIRATION</h1>
+
+  <p style="font-size:22px"> <br><br><br>
+Where the Mind is Without Fear <br><br>
+Where the mind is without fear and the head is held high <br><br>
+Where knowledge is free <br><br>
+Where the world has not been broken up into fragments<br><br>
+By narrow domestic walls<br><br>
+Where words come out from the depth of truth<br><br>
+Where tireless striving stretches its arms towards perfection<br><br>
+Where the clear stream of reason has not lost its way<br><br>
+Into the dreary desert sand of dead habit<br><br>
+Where the mind is led forward by thee<br><br>
+Into ever-widening thought and action<br><br>
+Into that heaven of freedom, my Father, let my country awake.
+
+  </p>
+</div>
+
+<div id="contact-grad"> <br><br><br>
+  <h1>CONTACT US</h1>
+   <br>
+ <br>
+<p style="font-size:20px;">
+Families willing to sponsor child , volunteers willing to work for the cause <br> and anyone who know
+any underprivileged child please contact us at, <br><br><br>
+<strong>Phone:</strong> +91 8875496600 <br> 
+<strong>E-mail:</strong>  milanfoundation2017@gmail.com
+</p>
+<br><br><br> <br>
+
+  <h1>OUR ADDRESS</h1> 
+  <p style="font-size:20px;">
+House No. 66, Kanchipuram, Bsl Colony<br>Basant Vihar, Bhilwara<br> Rajasthan<br> 311001
+</p>
+
+</div>
+
+
+<div id="end">
+  <p> "Never doubt that a small group of thoughtful, committed citizens can change the world. Indeed, it’s the only thingthat ever has.”  – Margaret Mead </p>
+  <hr><br>
+  Milan NGO 2017
+</div>
+</body>
+</html>
+
+
+<!--
+
+
+    
