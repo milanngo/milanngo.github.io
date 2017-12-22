@@ -14,15 +14,15 @@ body {
 }
 
 ul {
-    font-size: 28px;
+    font-size: 16px;
     display: flex;
     flex-wrap: wrap;
     align-content: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 12px;
     flex-grow: 2;
     list-style-type: none;
-margin-top: 100px;
+    margin-top: 100px;
     overflow: hidden;
 
 }
