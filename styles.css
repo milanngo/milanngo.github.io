@@ -5,6 +5,8 @@
 */
 html {
     overflow-x: hidden; 
+        background: linear-gradient(to right,  brown , blue); /* Standard syntax (must be last) */
+
 }
 
 
@@ -12,10 +14,9 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-            background: -webkit-linear-gradient(left, brown, blue);
-        background: -moz-linear-gradient(left, brown, blue);
-        background: -o-linear-gradient(left, brown, blue);
-
+    background: -webkit-linear-gradient(left, brown, blue);
+    background: -moz-linear-gradient(left, brown, blue);
+    background: -o-linear-gradient(left, brown, blue);
     background: linear-gradient(to right,  brown , blue); /* Standard syntax (must be last) */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,7 +30,7 @@ body {
 
 
 ul {
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     flex-wrap: wrap;
     align-content: left;
@@ -293,17 +294,20 @@ img[src*="map"] {
     margin:0 auto;
     width: 100%;    
     margin: 0;
-
-
 }
+
 
 #about-grad-v {
    /* height: 110%; */
     width: 100%;
     background: linear-gradient(to right, brown, blue); /* Standard syntax (must be last) */
     color: white;
+}
 
-    
+@media screen and (orientation: portrait ) {
+#slides {
+    padding-top: 70px;
+}
 }
 
 #ins-grad {
