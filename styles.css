@@ -1,17 +1,30 @@
+/*
+        overflow-x: hidden; 
+        is the secret sauce in html and body
 
+*/
 html {
     height: 100%;
+        overflow-x: hidden; 
+    padding: 0px;
+
 }
 
 
 body {
     height: 100%;
+    width: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Lato', sans-serif;
+    background: yellow;
+            overflow-x: hidden; 
+
 
 }
+
+
 
 ul {
     font-size: 16px;
@@ -87,7 +100,7 @@ li {
   justify-content: center;
 
       flex-direction: row;
-
+ width: 100%;
 }
 
 
@@ -98,7 +111,6 @@ li {
     background: linear-gradient(to right,  brown , blue); /* Standard syntax (must be last) */
         position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
 
 
 }
@@ -106,16 +118,7 @@ li {
 #logo {
     flex-grow: 1
 }
-/*
-#logo {
-        margin: 0;
-    background: radial-gradient(lightyellow, orange ); /* Standard syntax (must be last) 
 
-    padding-top: 80px;
-    height: 400px;
-    width: 100%;
-}
-*/
 
 #social {
 
@@ -123,47 +126,48 @@ li {
 
 #vision-grad2 {
         margin: 0;
+  margin: 0;
 
     height: 90%;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right, brown , orange); /* Standard syntax (must be last) */
     color: white;
     padding-top: 10%;
-    padding-left: 10%; */
+   /* padding-left: 10%; */
 }
 
 #mission-grad {
         margin: 0;
 
     height: 90%;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right, blue , brown); /* Standard syntax (must be last) */
     color: white;
   padding-top: 10%;
-    padding-left: 10%; */
-}
+padding-left: 10%; }
 
 #presence-grad {
         margin: 0;
 
     height: 100%;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right, brown , orange); /* Standard syntax (must be last) */
     color: white;
   padding-top: 10%;
-    padding-left: 10%; */
 }
-
+   /* 
 #wed-grad {
         margin: 0;
 
     height: 90%;
-    width: 90%;
-    background: linear-gradient(to right, blue , brown); /* Standard syntax (must be last) */
+    width: 100%;
+    background: linear-gradient(to right, blue , brown); /* Standard syntax (must be last) 
     color: white;
   padding-top: 10%;
-    padding-left: 10%; */
 }
+
+
+*/
 
 #about-grad {
     height: 83%;
@@ -171,6 +175,7 @@ li {
     background: linear-gradient(to right, #1e617a, #4fb7dd); /* Standard syntax (must be last) */
     color: white;
     padding-top: 10%;
+
 }
 
 #address-grad {
@@ -186,23 +191,25 @@ li {
         margin: 0;
 
     height: 90%;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right, #3b3c3f , #76777f); /* Standard syntax (must be last) */
     color: white;
   padding-top: 10%;
-    padding-left: 10%; */
-}
+padding-left: 10%; }
 
 
 #end {
         margin: 0;
-color: white;
-    background: linear-gradient(to right, brown , blue); /* Standard syntax (must be last) */
-      padding-top: 1%;
-padding-left: 3%;
-    height: 20%;
-        width: 97%;
-}
+        color: white;
+        background: -webkit-linear-gradient(left, brown, blue);
+        background: -moz-linear-gradient(left, brown, blue);
+        background: -o-linear-gradient(left, brown, blue);
+        background: linear-gradient(to right, brown, blue); /* Standard syntax (must be last) */
+        padding-top: 1%;
+        height: 20%;
+        width: 100%;
+    
+padding-left: 10%; }
 
 img[src*="logo"] {
         display: block;
@@ -287,6 +294,8 @@ img[src*="map"] {
 #slides {
     margin:0 auto;
     width: 100%;    
+      margin: 0;
+
 
 }
 
@@ -295,27 +304,32 @@ img[src*="map"] {
     width: 100%;
     background: linear-gradient(to right, brown, blue); /* Standard syntax (must be last) */
     color: white;
+      margin: 0;
+
+    
 }
 
 #ins-grad {
         margin: 0;
 
     height: 110%;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right,orange, red); /* Standard syntax (must be last) */
     color: white;
   padding-top: 10%;
-    padding-left: 10%; */
-}
+  margin: 0;
+
+padding-left: 10%; }
+
 
 
 #wed-grad {
         margin: 0;
+  margin: 0;
 
     height: 80%;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(to right,#ad261a, #ef516b); /* Standard syntax (must be last) */
     color: white;
   padding-top: 10%;
-    padding-left: 10%; */
-}
+padding-left: 10%; }
